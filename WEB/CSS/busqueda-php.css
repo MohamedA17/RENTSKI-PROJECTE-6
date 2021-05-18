@@ -1,0 +1,278 @@
+* {
+
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    /* max-width: 1024px; */
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    background-image: url("https://images7.alphacoders.com/594/thumb-1920-594150.jpg");
+
+}
+
+header {
+    /* border: 3px solid red; */
+    height: 110px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 1px #2c2c2c;
+}
+
+
+h2 {
+    color: #E8E8E8;
+    -webkit-text-stroke: 0.6px black;
+    font-size: 30px;
+}
+
+
+/*                                                      MENU                                         */
+nav {
+    /* border: 3px solid white; */
+    background-color: #2c2c2c;
+    height: 50px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+li {
+    align-items: center;
+  
+}
+
+li a {
+    color: #E8E8E8;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.8s;
+
+}
+
+
+li a:hover {
+    color: white;
+}
+
+
+.icon {
+    border: 3px solid aqua;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: -5px;
+}
+
+.icon img {
+    height: 100%;
+    width: 100%
+}
+
+
+#titol2 {
+    /* border: 3px solid white; */
+    margin-top: 20px;
+}
+
+
+
+
+/*                                                  TAULES PHP                                                   */
+
+.container-equips {
+
+    /* border: 3px solid black; */
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    padding: 10px;
+    align-items: center;
+
+
+}
+
+.titol-equipament {
+    /* border: 2px solid blue; */
+    background-color: #E8E8E8;
+    opacity: 0.5;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 90px;
+    height: 50px;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 35px;
+
+}
+
+.equipament {
+    margin-top: 10px;
+    margin-left: 30px;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 450px;
+    height: 90px;
+
+}
+
+th {
+    background-color: #2c2c2c;
+    color: white
+}
+
+td,th {
+    color: #2c2c2c;
+    background-color:#E8E8E8 ;
+    border: 1px solid white;
+    border-radius: 1px;
+    text-align: center;
+    padding: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    padding: 20px;
+}
+
+#boxEsqui{
+    /* border: 3px solid green; */
+    padding: 5px;
+    width: 500px;   
+    
+}
+
+#boxBotes{
+    /* border: 3px solid red; */
+    width: 500px;
+   
+}
+
+#boxPals{
+    /* border: 3px solid blue; */
+    align-items: center;
+    width: 500px;
+    
+}
+
+#boxKits{
+    /* border: 3px solid blue; */
+    align-items: center;
+    width: 500px;
+    
+}
+
+#boxEquipaments{
+    display: flex;
+    justify-content: space-around;
+ 
+
+}
+
+
+/*                                                          MEDIA QUERY                                          */
+
+@media only screen and (max-width: 600px) {
+
+    * {
+        box-sizing: border-box;
+        margin: auto;
+        padding: 0;
+        width: 100%;
+    }
+
+    body {
+        width: auto;
+
+    }
+
+    #all {
+        width: 100%;
+        overflow: hidden;
+        border-radius: 0px;
+
+    }
+
+    nav {
+        margin-top: 60px;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: auto;
+        padding: 0px;
+    }
+
+
+    input {
+        height: 30px;
+        border-radius: 80px;
+        width: 110px;
+    }
+
+    #boto-buscar {
+        display: none;
+
+    }
+
+    .equipament {
+        margin-top: 10px;
+        border: 3px solid white;
+        border-radius: 10px;
+        width: 90%;
+    
+    }
+
+    .container-equips{
+        width: 90%;
+    }
+
+
+
+    #boxEsqui{
+        /* border: 3px solid green; */
+        padding: 5px;
+        width: 500px;   
+        margin-right: 25px;
+    }
+    
+    #boxBotes{
+        /* border: 3px solid red; */
+        width: 500px;
+        margin-right: 35px;
+    }
+    
+    #boxPals{
+        /* border: 3px solid blue; */
+        align-items: center;
+        width: 500px;
+        margin-right: 25px;
+    }
+    
+    #boxKits{
+        /* border: 3px solid blue; */
+        align-items: center;
+        width: 500px;
+        margin-right: 25px;
+    }
+    
+    #boxEquipaments{
+        display: flex;
+        justify-content: space-around;
+     
+    
+    }
+}
