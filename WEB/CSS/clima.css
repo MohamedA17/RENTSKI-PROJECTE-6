@@ -1,0 +1,395 @@
+* {
+
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#all {
+
+    /* border: 3px solid black;  */
+    /* height: 1024px;  */
+    background-image: url("https://images7.alphacoders.com/594/thumb-1920-594150.jpg");
+
+
+}
+
+body {
+    background-image: url("https://images7.alphacoders.com/594/thumb-1920-594150.jpg");
+
+}
+
+header {
+    /* border: 3px solid red; */
+    height: 110px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 1px #2c2c2c;
+}
+
+nav {
+    /* border: 3px solid white; */
+    background-color: #2c2c2c;
+    height: 60px;
+
+    /* border-radius: 10px; */
+    list-style-type: none;
+    display: flex;
+    margin-top: 30px;
+}
+
+li{
+    margin-top: 20px;
+
+}
+
+li a{
+    margin-top: 20px;
+}
+
+.dropdown {
+   margin-right: 90%;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+      border-radius:10px;
+    display: none;
+    position: absolute;
+    background-color: #2c2c2c;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+
+  .dropdown-content a {
+      
+    margin-top: 10px;
+    color: #E8E8E8;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 16px;
+    line-height: 50px;
+  }
+
+  .dropdown-content a:hover{
+    color:aqua;
+    cursor:pointer;
+    transition-duration: 0.5s;
+  }
+
+
+button{
+    background-color: #2c2c2c;
+    color: #E8E8E8;
+    height: 50px;
+    width: 100px;
+    display: inline;
+    border: none;
+    border-radius: 5px;
+
+}
+
+button:hover{
+    color:aqua;
+    cursor:pointer;
+    transition-duration: 0.5s;
+
+}
+
+
+
+.show {
+    display: block;
+    height: 450px;
+    width: 100px;
+    transition: all 2s;
+}
+
+
+
+.icon {
+    border: 3px solid aqua;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: -27.5px;
+}
+
+.icon img {
+    height: 100%;
+    width: 100%
+}
+
+
+#titol2 {
+    /* border: 3px solid white; */
+    margin-top: 20px;
+}
+
+h3 {
+    color: #E8E8E8;
+    -webkit-text-stroke: 0.6px black;
+    font-size: 30px;
+}
+
+
+#botons-informacio {
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    /* border: 3px solid greenyellow; */
+    
+}
+
+.info {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 65%;
+    background-color: #2c2c2c;
+    color: #e8e8e8;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    transition-duration: 0.5s;
+}
+
+.opcio {
+    font-size: 17px;
+    border-radius: 20px;
+    height: 40px;
+    width: 130px;
+}
+
+.opcio:hover {
+    cursor: pointer;
+    background-color: #2c2c2c;
+    color: aqua;
+    transition-duration:0.5s;
+}
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    /* border: 3px solid red; */
+    width: 95%;
+    padding: 10px;
+}
+
+
+.clima {
+    padding: 5px;
+    margin-top: 15px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: #e8e8e8;
+    color: #2c2c2c;
+    width: 600px;
+    height: 600px;
+
+}
+
+
+.clima p {
+    line-height: 30px;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+
+.dades-clima{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 170px;
+    margin-left: 70px;
+
+}
+
+.dades-clima p{
+    text-align: justify;
+
+
+}
+.dades-simbol{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid grey;
+    height: 60px;
+    width: 450px;
+}
+
+.dades-simbol:hover{
+    background-color: #2c2c2c;
+    color:#E8E8E8;
+    transition-duration: 0.9s;
+
+}
+
+.simbols {
+    margin-top: 10px;
+    /* border: 3px solid black; */
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.simbols img {
+    width: 100%;
+    height: 100%;
+}
+
+    @media only screen and (max-width: 600px) {
+
+        * {
+            box-sizing: border-box;
+            margin: auto;
+            padding: 0;
+            width: 100%;
+        }
+    
+        body {
+            width: auto;
+    
+        }
+    
+        #all {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 0px;
+    
+        }
+    
+        nav {
+            margin-top: 60px;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            width: auto;
+            padding: 0px;
+       }
+    
+    
+       .dropdown {
+        margin-right: 90%;
+         display: inline-block;
+       }
+       
+       .dropdown-content {
+         border-radius: 9px;
+         display: none;
+         margin-left: 30px;
+         background-color: #2c2c2c;
+         min-width: 170px;
+         overflow: auto;
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         z-index: 1;
+         
+       }
+     
+       .dropdown-content a {
+         margin-top: 10px;
+         color: #E8E8E8;
+         text-decoration: none;
+         font-size: 20px;
+         padding: 14px 16px;
+         line-height: 50px;
+       }
+     
+       .dropdown-content a:hover{
+         color:aqua;
+         cursor:pointer;
+         transition-duration: 0.5s;
+       }
+     
+     
+     button{
+         background-color: #2c2c2c;
+         color: #E8E8E8;
+         height: 50px;
+         width: 100px;
+         display: inline;
+         border: none;
+         border-radius: 5px;
+         margin-left: 20px;
+     
+     }
+     
+     button:hover{
+         color:aqua;
+         cursor:pointer;
+         transition-duration: 0.5s;
+     
+     }
+     
+     button p{
+         font-size: 30px;
+     
+     }
+     
+     .show {
+         display: block;
+         height: 450px;
+         width: 100px;
+         transition: all 2s;
+     }
+     
+
+     #botons-informacio {
+        margin-top: 30px;
+        width: 100%;
+        padding: 10px;
+        /* border: 3px solid greenyellow; */
+        height: auto;
+        
+    }
+
+
+    section {
+        margin-top: 30px;
+        width: 100%;
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    .info {
+        width: 100%;
+        height: 2%;
+    }
+
+    .opcio{
+        height: 90px;
+        width: 300px;   
+    }
+
+    .clima{
+        width: 100%;
+    }
+
+    .dades-simbol{
+
+        width: 90%;
+        height: 100px;
+        display: block;
+    }
+    .dades-simbol p{
+        margin-top: 5px;
+        text-align: center;
+    }
+
+
+}
