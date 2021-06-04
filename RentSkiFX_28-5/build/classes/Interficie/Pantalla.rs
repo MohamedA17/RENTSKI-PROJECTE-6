@@ -1,1 +1,0 @@
-projecte6.Pantalla
